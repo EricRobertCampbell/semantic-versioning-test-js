@@ -12,10 +12,5 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: "16"
-            - checkout: self
-              persistCredentials: true
-            - script: |
-                  git config --global user.email 'eric.campbell@calefy.ca'
-                  git config --global user.name 'Eric Campbell'
             - run: npm install
             - run: npm run release

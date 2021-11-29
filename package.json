@@ -1,0 +1,19 @@
+{
+  "name": "semantic-versioning-test-js",
+  "version": "1.0.0",
+  "description": "Semantic versioning test - JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricRobertCampbell/semantic-versioning-test-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricRobertCampbell/semantic-versioning-test-js/issues"
+  },
+  "homepage": "https://github.com/EricRobertCampbell/semantic-versioning-test-js#readme"
+}

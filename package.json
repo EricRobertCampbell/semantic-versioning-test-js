@@ -1,19 +1,28 @@
 {
-  "name": "semantic-versioning-test-js",
-  "version": "1.0.0",
-  "description": "Semantic versioning test - JavaScript",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EricRobertCampbell/semantic-versioning-test-js.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EricRobertCampbell/semantic-versioning-test-js/issues"
-  },
-  "homepage": "https://github.com/EricRobertCampbell/semantic-versioning-test-js#readme"
+	"name": "semantic-versioning-test-js",
+	"version": "1.0.0",
+	"description": "Semantic versioning test - JavaScript",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"release": "standard-version",
+		"commitlint": "commitlint"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EricRobertCampbell/semantic-versioning-test-js.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/EricRobertCampbell/semantic-versioning-test-js/issues"
+	},
+	"homepage": "https://github.com/EricRobertCampbell/semantic-versioning-test-js#readme",
+	"devDependencies": {
+		"@commitlint/cli": "^15.0.0",
+		"@commitlint/config-conventional": "^15.0.0",
+		"commitlint": "^15.0.0",
+		"husky": "^7.0.4",
+		"standard-version": "^9.3.2"
+	}
 }

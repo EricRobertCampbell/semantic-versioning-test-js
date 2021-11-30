@@ -17,4 +17,4 @@ jobs:
                   git config user.name "GitHub Actions Bot"
                   git config user.email "<>"
             - name: Update version
-              run: npx standard-version --dry-run --version
+              run: npx standard-version --dry-run

@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.0.0 (2021-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* branch
+
+* Merge pull request #3 from EricRobertCampbell/breaking-change-branch ([28b7894](https://github.com/EricRobertCampbell/semantic-versioning-test-js/commit/28b789431122e22640a8d7ebdaf946809c4fce1e)), closes [#3](https://github.com/EricRobertCampbell/semantic-versioning-test-js/issues/3)
+
 ## [2.0.0](https://github.com/EricRobertCampbell/semantic-versioning-test-js/compare/v1.1.2...v2.0.0) (2021-11-30)
 
 

@@ -12,6 +12,8 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: "16"
+            - name: Install required files
+              run: npm install
             - name: Create local changes
               run: |
                   git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"

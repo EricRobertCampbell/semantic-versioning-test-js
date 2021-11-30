@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### 1.1.3 (2021-11-30)
+## [2.0.0](https://github.com/EricRobertCampbell/semantic-versioning-test-js/compare/v1.1.2...v2.0.0) (2021-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* added a new breaking feature
+
+### Features
+
+* added a new breaking feature ([1ed9940](https://github.com/EricRobertCampbell/semantic-versioning-test-js/commit/1ed9940b34a86d63a0db4163865d7ba9cf835ecc))
 
 ### 1.1.2 (2021-11-30)
 

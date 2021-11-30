@@ -12,15 +12,9 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: "16"
-            - name: Install required files
-              run: npm install
-            - name: Create local changes
+            - name: Configure commiter
               run: |
-                  git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                  git config --local user.name "github-actions[bot]"
-                  npm run release
-            - name: Push changes
-              uses: ad-m/github-push-action@master
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN  }}
-                  branch: ${{ github.ref  }}
+                  git config user.name "GitHub Actions Bot"
+                  git config user.email "<>"
+            - name: Bump version
+              run: qzb/standard-version@1

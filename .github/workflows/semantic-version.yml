@@ -12,6 +12,7 @@ jobs:
               uses: actions/checkout@v2
               with:
                   fetch-depth: 0 # gives access to all previous commits
+                  token: ${{ secrets.TEST_PUSH_TOKEN }}
             - uses: actions/setup-node@v1
               with:
                   node-version: "16"
@@ -20,11 +21,9 @@ jobs:
                   git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                   git config --local user.name "github-actions[bot]"
                   npx standard-version
-            - name: Test if the new token is there
-              run: echo ${{secrets.THIS_DOESNT_EXIST}}
-            # - name: Push changes
-            #   uses: ad-m/github-push-action@master
-            #   with:
-            #       github_token: ${{ secrets.TEST_PUSH_TOKEN }}
-            #       # github_token: ${{ secrets.GITHUB_TOKEN   }}
-            #       branch: ${{ github.ref   }}
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                  github_token: ${{ secrets.TEST_PUSH_TOKEN }}
+                  # github_token: ${{ secrets.GITHUB_TOKEN   }}
+                  branch: ${{ github.ref   }}

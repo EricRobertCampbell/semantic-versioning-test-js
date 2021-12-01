@@ -21,8 +21,7 @@ jobs:
                   git config --local user.name "github-actions[bot]"
                   npx standard-version
             - name: Test if the new token is there
-              run: echo ${{secrets.PUSH_TEST_TOKEN}}
-
+              run: echo ${{secrets.THIS_DOESNT_EXIST}}
             # - name: Push changes
             #   uses: ad-m/github-push-action@master
             #   with:

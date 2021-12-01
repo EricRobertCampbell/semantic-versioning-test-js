@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/EricRobertCampbell/semantic-versioning-test-js/compare/v4.0.0...v4.1.0) (2021-12-01)
+
+
+### Features
+
+* test ([4f81d84](https://github.com/EricRobertCampbell/semantic-versioning-test-js/commit/4f81d8405304bbd46ca09ddb1b1d272c72b1d074))
+
 ## [4.0.0](https://github.com/EricRobertCampbell/semantic-versioning-test-js/compare/v3.0.3...v4.0.0) (2021-11-30)
 
 

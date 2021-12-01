@@ -4,10 +4,10 @@ on:
     push:
         branches:
             - development
-        paths-ignore: 
+        paths-ignore:
             - package.json
             - package-lock.json
-            - README.md
+            - CHANGELOG.md
 
 jobs:
     semantic-versioning:
